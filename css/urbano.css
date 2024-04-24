@@ -1,0 +1,262 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    max-width: 100%;
+    
+    background-image: url(public/img/Fondo.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment:scroll;
+    
+    overflow-y: auto;
+
+    font-family: sans-serif;
+
+
+    
+}
+
+.container {
+
+    margin-bottom: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0%;
+    
+
+}
+
+fieldset {
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    box-shadow: 5px 5px #ef233b69; 
+    margin-bottom: 20px;
+    border: 2px solid #8D99AE;
+    background-color: #edf2f435;
+
+}
+h1 {
+    color: #EF233C;
+    text-align: center;
+    padding: 4px;
+    border: 3px solid #EDF2F4 ;
+    background-color:#edf2f456;
+    box-shadow: 2px 3px;
+    border-radius: 3px;
+}
+
+
+
+.titulos {
+
+    text-align: center;
+    color: #EDF2F4;
+    
+}
+
+.deportes {
+
+
+    color: #EDF2F4;
+}
+
+.sexo {
+
+    color:#EDF2F4;
+
+}
+
+
+.sedes {
+
+    
+    font-weight: bold;
+
+}
+
+.campos {
+
+    
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 1.8rem;
+    border-radius: 5px;
+    color:#000;
+    font-weight: bold;
+
+}
+
+.campos:focus {
+
+    color:#000000 ;
+    background-color: #ef233b58 ;
+
+}
+
+#descripción:focus {
+
+    color:#000000 ;
+    background-color: #ef233b58 ;
+
+
+}
+
+#país {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 28px;
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #edf2f435;
+    color: #000;
+    font-weight: bold;
+}
+
+.d_p {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    gap: 3px;
+    margin-top: -5px;
+
+
+}
+
+.d_c {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  
+    gap: 3px;
+    
+
+
+}
+
+.datos_actividades {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: -5px;
+    
+
+
+}
+
+.sexo_container {
+
+   text-align: center; 
+
+}
+
+#descripción {
+
+    height: 100px;
+    width: 59%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #edf2f435;
+    color: #000;
+    font-weight: bold;
+  
+
+}
+
+button {
+
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    border:0;
+    box-shadow: 2px 2px ;
+    
+    background-color:  #d90427af;
+    color: #EDF2F4 ;
+    
+    
+
+}
+
+.botones {
+
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    justify-content: center;
+
+}
+
+.boton:hover {
+
+    color: #d90427;
+    background-color:#edf2f4b9;
+}
+
+legend:hover{
+
+    background-color:  #d90427af;
+    color: #EDF2F4 ;
+    
+
+
+}
+
+#boton_1 {
+
+    margin-right: 5px;
+}
+
+#boton_2 {
+
+    margin-left: 5px;
+}
+
+legend {
+
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #d90427;
+    background-color:#edf2f4b9;
+    box-shadow: 1px 2px ;
+
+
+}
+
+input {
+
+    background-color: #edf2f42e;
+   
+
+}
+
+p, .condiciones_novedades {
+    color: #EDF2F4;
+
+}
+
+
+
+
+
+        /**Azules grises**/          /*2B2D42*/    /*8D99AE*/   
+                  
+        /**Blanco**/  /*EDF2F4*/
+        
+       /**Rojos**/      /*EF233C/ /*D90429*/

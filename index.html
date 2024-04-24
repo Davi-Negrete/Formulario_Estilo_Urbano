@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Urbano</title>
+
+  </head>
+  
+  <body>
+
+      <div class="container">
+          
+        <h1>Inscríbete al Gym!</h1>
+        
+       
+          <main>
+          
+            <form>
+    
+              <div >
+                <fieldset>
+      
+                  <legend>Datos Personales</legend>
+        
+                  <div class="d_p">
+                    <label class="titulos" for="nombre">Nombre: *</label>
+                    <input class="campos" type="text" id="nombre" name="nombre" required>
+                  </div>
+                
+                  <div class="d_p">
+                    <label class="titulos" for="apellido">Apellido: *</label>
+                    <input class="campos" type="text" id="apellido" name="apellido" required>
+                  </div>
+               
+                  <div class="d_p">
+                    <label class="titulos" for="documento">Documento: *</label>
+                    <input class="campos" type="number" id="documento" name="documento" required>
+                  </div>
+               
+                  <div class="d_p">
+                    <label class="titulos" for="país">Nacionalidad: *</label>
+                    <select name="Nacionalidad" id="país" required>
+                      <option disabled selected>- Seleccionar -</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Brasileña">Brasileña</option>
+                      <option value="Uruguaya">Uruguaya</option>
+                      <option value="Otra">Otra</option>
+                    </select>
+                  </div>
+                
+        
+                  <div class="d_p">
+                    <label class="titulos" for="descripción">Contanos un poco de vos...</label>
+                    <textarea class="campos" name="descripción" id="descripción" cols="20" rows="2"></textarea>
+                  </div>
+        
+                
+                  <div class="sexo_container">
+                  
+                    <div class="titulos"><p>Sexo: *</p></div>
+                  
+                    <input type="radio" id="femenino" name="Género" value="femenino" required>
+                    <label class="sexo" for="femenino">Femenino</label>
+        
+                    <input type="radio" id="masculino" name="Género" value="masculino">
+                    <label class="sexo" for="masculino">Masculino</label>
+        
+                    <input type="radio" id="otro" name="Género" value="otro">
+                    <label class="sexo" for="otro">Otro</label>
+        
+                  </div>
+        
+                </fieldset>
+              </div>
+              
+      
+      
+              <div>
+                <fieldset>
+      
+                  <legend>Datos de Contacto</legend>
+        
+                  <div class="d_c">
+                    <label class="titulos" for="teléfono">Teléfono:</label>
+                    <input class="campos" type="number" id="teléfono" name="teléfono" required>
+                  </div>
+        
+                  <div class="d_c">
+                    <label class="titulos" for="email">Dirección de correo electrónico: *</label>
+                    <input class="campos" type="email" id="email" name="mail" z required>
+                  </div>  
+              
+      
+                </fieldset>
+              </div>
+        
+            
+              <div class="datos_actividades">
+                <fieldset>
+      
+                  <legend>Actividades</legend>
+          
+                  <div><p>Por favor indicá cuáles actividades te interesan.</p></div>
+                  
+                  <div><p class="sedes">Sede Palermo:</p></div>
+        
+                  
+                  <label class="deportes">
+                    <input type="checkbox" name="Palermo_Basket" value="Básket">
+                    Básket
+                  </label>
+          
+                    
+                  <label class="deportes">
+                    <input type="checkbox" name="Palermo_Boxeo" value="Boxeo">
+                    Boxeo
+                  </label>
+        
+                  <label class="deportes">
+                    <input type="checkbox" name="Palermo_Fútbol" value="Fútbol">
+                    Fútbol
+                  </label>
+          
+                  <label class="deportes">
+                    <input type="checkbox" name="Palermo_Tenis" value="Tenis">
+                    Tenis
+                  </label>
+                  
+        
+        
+                  <div><p class="sedes">Sede Rosario:</p></div>
+          
+                  <label class="deportes">
+                    <input type="checkbox" name="Rosario_Básket" value="Básket">
+                    Básket
+                  </label>
+        
+                  <label class="deportes">
+                    <input type="checkbox" name="Rosario_Fútbol" value="Fútbol">
+                    Fútbol
+                  </label>
+          
+                  <label class="deportes">
+                    <input type="checkbox" name="Rosario_Rugby" value="Rugby">
+                    Rugby
+                  </label>
+          
+                  <label class="deportes">
+                    <input type="checkbox" name="Rosario_Voley" value="Voley">
+                    Voley
+                  </label>
+                
+        
+                </fieldset>
+              </div>
+        
+             
+        
+              <div class="condiciones_novedades" id="condiciones">
+                <input type="checkbox" name="condiciones" value="condiciones" id="condiciones" required >
+                <label for="condiciones">Acepto las condiciones *</label>  
+              </div>
+        
+              <div class="condiciones_novedades" id="novedades">
+                <input type="checkbox" name="notificaciones_novedades" value="notificaciones_novedades"  id="notificaciones_novedades" checked>
+                <label for="notificaciones_novedades">Deseo recibir novedades</label>  
+              </div>
+            
+              <div id="campo_obligatorio"><p>*: campo obligatorio</p></div>
+              
+              <div class="botones">
+                <button class="boton" id="boton_1" type="submit">Inicar afiliación</button>
+                <button class="boton" id="boton_2" type="reset">Limpiar</button>
+              </div>
+             
+      
+            </form>
+        
+          </main>
+        
+        </div>
+        
+        
+    
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
